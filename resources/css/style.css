@@ -1,0 +1,68 @@
+html {
+  font-size: 12px;
+}
+
+.background {
+      padding-bottom: 2.5rem;
+      background: url("../images/Capture.PNG") no-repeat center center;
+      background-image: url("../images/Capture.PNG");
+      background-size: cover;
+}
+.banniere  {
+  display: flex;
+  justify-content: space-between ;
+  align-items: center;
+  height: 6rem;
+  
+}
+.logo img{
+  width: auto;
+  height: 8rem;
+  padding-top: 1rem;
+  padding-left:3.5rem;
+}
+.menu img {
+  height: 2.2rem;
+  padding: 1rem;
+}
+.main {
+  display: flex;
+  justify-content: space-around;
+}
+.opacity {
+  color: black;
+
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  width: 40% ;
+  height: auto;
+  background-color: rgba(0,0,0,0.45)
+}
+.add {
+  display: flex;
+  justify-content: flex-end;
+  color: white;
+  align-items: center;
+  font-size: 1.5rem;
+}
+.add img {
+  height: 1.7rem;
+  width: auto;
+  padding:0.2rem;
+}
+.bracelet {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.bracelet img {
+  width: 100%;
+}
+.product_name {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
