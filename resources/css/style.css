@@ -1,19 +1,20 @@
 html {
   font-size: 12px;
+
 }
 
 .background {
-      padding-bottom: 2.5rem;
       background: url("../images/Capture.PNG") no-repeat center center;
       background-image: url("../images/Capture.PNG");
       background-size: cover;
+      height: 100vh;
 }
 .banniere  {
   display: flex;
   justify-content: space-between ;
   align-items: center;
   height: 6rem;
-  
+
 }
 .logo img{
   width: auto;
@@ -24,6 +25,16 @@ html {
 .menu img {
   height: 2.2rem;
   padding: 1rem;
+}
+.center {
+  display: flex;
+  align-items: center;
+  height: 80vh;
+  justify-content: center;
+}
+.container {
+  max-width: 1200px;
+  margin: auto;
 }
 .main {
   display: flex;
@@ -38,7 +49,14 @@ html {
   flex-direction: column;
   width: 40% ;
   height: auto;
-  background-color: rgba(0,0,0,0.45)
+  background-color: rgba(0,0,0,0.65);
+}
+.black {
+  background-color: rgba(255,255,255,0.65);
+}
+.black .add,
+.black .product_name {
+  color: black;
 }
 .add {
   display: flex;
@@ -46,6 +64,7 @@ html {
   color: white;
   align-items: center;
   font-size: 1.5rem;
+  font-family: Quicksand;
 }
 .add img {
   height: 1.7rem;
@@ -58,11 +77,39 @@ html {
   align-items: center;
 }
 .bracelet img {
-  width: 100%;
+  width: 70%;
+  padding: 4rem 0;
 }
 .product_name {
+  font-family: Quicksand;
+  font-weight: bold;
   color: white;
   display: flex;
   align-items: center;
   justify-content: center;
+  font-size: 1.2rem;
+  padding-bottom: 1rem;
+}
+.menu a,
+.logo img,
+.add img,
+.box{
+  display: inline-block;
+  transition-duration: 0.3s;
+}
+.menu a:hover,
+.add img:hover {
+  transform: scale(1.2);
+}
+.logo img:hover {
+  transform: rotate(360deg);
+}
+.add img:hover {
+  transform: rotate(90deg);
+}
+.box:hover {
+  transform: scale(1.02);
+}
+.product {
+  height: 106vh;
 }
