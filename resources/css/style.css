@@ -60,6 +60,10 @@ a {
 .black .product_name {
   color: black;
 }
+ a .divS {
+  width: 100%;
+  height: 100%;
+}
 .add {
   display: flex;
   justify-content: flex-end;
@@ -72,6 +76,17 @@ a {
   height: 1.7rem;
   width: auto;
   padding:0.2rem;
+}
+.add a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: black;
+}
+#white {
+  color: white;
 }
 .bracelet {
   display: flex;
@@ -91,6 +106,11 @@ a {
   justify-content: center;
   font-size: 1.2rem;
   padding-bottom: 1rem;
+}
+a.fill-div {
+  display: block;
+  height: 100%;
+  width: 100%;
 }
 .menu a,
 .logo img,

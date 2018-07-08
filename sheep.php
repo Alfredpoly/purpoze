@@ -14,7 +14,7 @@
       <div class="banniere container">
         <div class="left">
           <div class="logo">
-            <a href="index.html"><img src="resources\images\purpose_logo_beta.png" alt=""></a>
+            <a href="index.php"><img src="resources\images\purpose_logo_beta.png" alt=""></a>
           </div>
           <a class="ic" href="#"><img src="resources\images\ic_search_24px.png" alt=""></a>
         </div>
@@ -31,7 +31,7 @@
       </div>
       <div class="price">
         <h1>sheep/depth edition - white</h1>
-        <h2>15€</h2>
+        <h2>12.99€</h2>
         <a href="" class="black">
           <p>ajouter au</br>panier</p>
         </a>
